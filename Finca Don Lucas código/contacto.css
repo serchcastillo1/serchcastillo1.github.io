@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #b8b4b4;
+color: white;
+padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  font-weight: bold;
+
+
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(248, 247, 247); 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ffcc00; 
+}
+
+.logo img {
+  width: 200px;
+}
+
+.redessociales {
+  margin-right: 30px;
+}
+.redessociales img {
+  width: 40px;
+  padding: 5px;
+  margin-top: 30px;
+cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .image {
+    width: 40%;
+    height: 80%;
+    background: url('img/FiestaMexicana.jpg') no-repeat center;
+    background-size: auto;
+  }
+  
+  .img2 {
+    width: 650px;
+    padding: 50px;
+    align-items: center;
+  }
+
+  .form {
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .label {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background: #444;
+  }
+
+  .button:disabled {
+    background: #ccc;
+    cursor: default;
+  }
+
+  
+  .container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .location, .contact {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #map {
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .address, .phone {
+    margin-bottom: 15px;
+  }
+  
+  .phone p {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    background-color: #c6c6c6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .image {
+      width: 80%;
+      height: 40%;
+    }
+
+    .form {
+      width: 80%;
+      height: 40%;
+    }
+  }
